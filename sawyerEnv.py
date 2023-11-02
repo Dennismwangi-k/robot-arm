@@ -99,7 +99,7 @@ class sawyerEnv(gym.Env):
 
 		trayId = p.loadURDF("./tray/tray.urdf", [tray_x, tray_y, 0], [0, 0, 0, 3])
 
-		
+
 		############################################  Change Object ID here #######################################################
 
 
@@ -319,4 +319,7 @@ class sawyerEnv(gym.Env):
 
 	def p(self):
 		return self._sawyer.P
+
+
+
 
